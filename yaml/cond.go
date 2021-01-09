@@ -28,6 +28,7 @@ type Conditions struct {
 	Branch   Condition         `json:"branch,omitempty"`
 	Status   Condition         `json:"status,omitempty"`
 	Paths    Condition         `json:"paths,omitempty"`
+	Keyword  Condition         `json:"keyword,omitempty"`
 	Matrix   map[string]string `json:"matrix,omitempty"`
 }
 
